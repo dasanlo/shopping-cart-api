@@ -1,0 +1,33 @@
+{
+  "name": "shopping-cart-api",
+  "version": "1.0.0",
+  "description": "API REST para gestionar un carrito de compras usando Node.js, Express y Redis",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "redis",
+    "api",
+    "shopping-cart"
+  ],
+  "author": "David Sanjuan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "cron": "^3.1.7",
+    "express": "4.17.1",
+    "moment": "^2.30.1",
+    "mongoose": "6.13.0",
+    "redis": "3.0.2",
+    "uuid": "8.3.2"
+  },
+  "devDependencies": {
+    "chai": "4.4.1",
+    "mocha": "10.6.0",
+    "supertest": "7.0.0"
+  }
+}
